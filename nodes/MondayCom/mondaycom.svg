@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="mondayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3D57;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF007F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#1C1F3E"/>
+  <g transform="translate(10, 18)">
+    <!-- First column - red -->
+    <circle cx="6" cy="6" r="5" fill="#FF3D57"/>
+    <rect x="1" y="6" width="10" height="16" rx="5" fill="#FF3D57"/>
+    
+    <!-- Second column - yellow -->
+    <circle cx="22" cy="10" r="5" fill="#FFCC00"/>
+    <rect x="17" y="10" width="10" height="12" rx="5" fill="#FFCC00"/>
+    
+    <!-- Third column - green -->
+    <circle cx="38" cy="14" r="5" fill="#00CA72"/>
+    <rect x="33" y="14" width="10" height="8" rx="4" fill="#00CA72"/>
+  </g>
+</svg>
